@@ -1,0 +1,23 @@
+#hotel {
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    width: 750px;
+}
+
+.hotel-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.single-hotel {
+    margin: 20px;
+    width: 175px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px  gray;
+}
+.single-hotel img {
+    max-width : 100%;
+    border-radius: 20px;
+}

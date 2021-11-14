@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    background-color: #F2F2F2;
+}
+
+.footer-inside  {
+    display: flex;
+   flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+#popular {
+  background-color: #efefef;
+  border-radius: 15px;
+  width: 350px;
+}
+
+.single-popular {
+  margin: 20px;
+  width: 175px;
+  padding: 4px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px gray;
+}
+
+.single-popular img {
+  max-width: 100%;
+  border-radius: 20px;
+}

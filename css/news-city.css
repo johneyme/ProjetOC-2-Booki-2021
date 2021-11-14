@@ -1,0 +1,33 @@
+
+
+.news-city {
+    
+    display: flex;
+   
+    margin: 20px;
+}
+
+.news-group {
+    border: 1px purple solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 575px;
+   
+}
+
+.card-news {
+    margin: 20px;
+    width: 175px;
+    padding: 4px;
+}
+
+.card-news img {
+    max-width : 100%;
+    border-radius: 20px;
+}
+
+.big img {
+    
+}
+
+.little img {}
