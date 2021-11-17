@@ -1,19 +1,70 @@
 #popular {
   background-color: #efefef;
   border-radius: 15px;
-  width: 350px;
+  width: 300px;
+  padding: 20px;
+
+}
+.contour-popularcard {
+  
+  background-color: white;
+  padding: 4px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px gray;
+  
+  margin-top: 25px;
 }
 
 .single-popular {
-  margin: 20px;
-  width: 175px;
-  padding: 4px;
-  background-color: white;
+  display: flex;
+  justify-content: flex-end;
   border-radius: 20px;
-  box-shadow: 1px 1px 10px gray;
+ 
 }
 
-.single-popular img {
-  max-width: 100%;
-  border-radius: 20px;
+
+.popularcard-content {
+  background-color: white;
+  border-radius: 0 20px 20px 0;
+  width: 150px;
+  padding: 15px;
 }
+
+.popularcard-content p {
+ 
+  margin: 0;
+  font-size:0.75em
+  
+}
+.popularcard-content h4 {
+  
+  margin: 0;
+  font-size: 1em;
+  
+}
+
+.popularcard-content i {
+  margin-top: 25px;
+  color: #0065fc;
+}
+
+.popularcard-content .disable {
+  color: #c9c9c9;
+}
+
+.soleil  {
+    
+  background-image: url("../images/hebergements/4_small/4small-soleilmatin.jpg");
+  background-size: 240px;
+}
+.coeurdeleau  {
+    
+  background-image: url("../images/hebergements/4_small/4small-coeurdeleau.jpg");
+  background-size: 240px;
+}
+.toutbleublanc  {
+    
+  background-image: url("../images/hebergements/4_small/4small-toutbleublanc.jpg");
+  background-size: 240px;
+}
+

@@ -1,43 +1,46 @@
-
-
 .filter {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    width: 700px;
-    font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 700px;
+  font-weight: bold;
 }
 .button-filter {
-    
+  border: rgba(196, 196, 196, 0.623) 1px solid;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  border-radius: 75px;
+  font-weight: bold;
+  font-size: small;
+  padding-right: 20px;
+  transition: 500ms;
   
-    border: grey 1px solid;
-    border-radius: 75px;
-    font-weight: bold;
-    font-size: small;
-    padding-right: 20px;
 }
 
 input {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.button-filter .fas {
-   
-    color: #0065FC;
-    margin-right: 15px;
-    text-align: center;
+.button-filter i {
+  color: #0065fc;
+  margin-right: 15px;
+  background-color: #7cb3ff;
+  border-radius: 40px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 
-    
+ 
 }
 
-.icon-case {
-   
+.button-filter:hover {
     background-color: #7cb3ff;
-    border-radius: 40px;
-   
-    width: 30px;
-    height: 30px;
     
-    vertical-align: middle;
+    
 }
+
+

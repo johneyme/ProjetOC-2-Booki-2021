@@ -13,12 +13,9 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: 2px orange solid;
 }
 
-article {
-  border: 2px orange solid;
-}
+
 
 h1 {
   font-weight: bold;

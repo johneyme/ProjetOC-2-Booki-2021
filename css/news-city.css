@@ -8,7 +8,6 @@
 }
 
 .news-group {
-    border: 1px purple solid;
     display: flex;
     flex-wrap: wrap;
     width: 575px;
@@ -26,8 +25,33 @@
     border-radius: 20px;
 }
 
-.big img {
+.newsport  {
     
+    background-image: url("../images/activites/3_medium/3medium-port.jpg");
+    background-size: 240px;
 }
-
-.little img {}
+.newsfort {
+    
+    background-image: url("../images/activites/4_small/4small-fort.jpg");
+    background-size: 240px;
+}
+.newsfrioul  {
+    
+    background-image: url("../images/activites/4_small/4small-frioul.jpg");
+    background-size: 240px;
+}
+.newscalanque  {
+    
+    background-image: url("../images/activites/3_medium/3medium-calanque.jpg");
+    background-size: 240px;
+}
+.newsnotredame  {
+    
+    background-image: url("../images/activites/4_small/4small-notredame.jpg");
+    background-size: 240px;
+}
+.newslongchamp  {
+    
+    background-image: url("../images/activites/4_small/4small-longchamp.jpg");
+    background-size: 240px;
+}

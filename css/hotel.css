@@ -1,23 +1,107 @@
 #hotel {
+    
     background-color: #EFEFEF;
     border-radius: 15px;
-    width: 750px;
+    width: 800px;
+
 }
 
-.hotel-card {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
+#hotel a{
+   font-weight: bold; 
+   margin-top: 15px;
+
 }
-.single-hotel {
-    margin: 20px;
-    width: 175px;
-    padding: 4px;
+#hotel h2{
+    
+    margin-top: 30px;
+    margin-left: 30px;
+ }
+
+.hotel-card {
+    margin-top:15px;
+    margin-left: 25px;
+ 
+    display: flex;
+   flex-wrap: wrap;
+    align-content: space-between;
+}
+
+
+.contour-card {
     background-color: white;
+    padding: 4px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px  gray;
+    margin: 15px;
+    margin-top: 25px;
 }
-.single-hotel img {
-    max-width : 100%;
+
+.single-hotel {
+    width: 210px;
+    height: 170px;
     border-radius: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    justify-content: center;    
 }
+
+.card-content {
+    
+    background-color: white;
+    width: 210px;
+    padding-left : 15px;
+    padding-right: 15px;
+    border-radius: 0 0 20px 15px;
+
+    
+}
+.card-content p {
+    
+    margin: 0;
+    font-size: 0.75em;
+}
+.card-content h4 {
+    font-size: 1em;
+    margin: 0;
+    
+}
+.cannebiere  {
+    
+    background-image: url("../images/hebergements/4_small/4small-cannebiere.jpg");
+    background-size: 240px;
+}
+.port  {
+    
+    background-image: url("../images/hebergements/4_small/4small-port.jpg");
+    background-size: 240px;
+}
+.mouette  {
+    
+    background-image: url("../images/hebergements/4_small/4small-mouette.jpg");
+    background-size: 240px;
+}
+.mer {
+    
+    background-image: url("../images/hebergements/4_small/4small-mer.jpg");
+    background-size: 240px;
+}
+.panier  {
+    
+    background-image: url("../images/hebergements/4_small/4small-panier.jpg");
+    background-size: 240px;
+}
+.amina  {
+    
+    background-image: url("../images/hebergements/4_small/4small-amina.jpg");
+    background-size: 190px;
+}
+
+.single-hotel i {
+    color: #0065fc;
+}
+
+.single-hotel .disable {
+    color: #c9c9c9;
+}
+

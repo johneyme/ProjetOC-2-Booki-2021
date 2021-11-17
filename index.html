@@ -31,10 +31,11 @@
       <p>En plein centre ville ou en pleine nature</p>
       <label for="site-search"><i class="fas fa-map-marker-alt"></i></label>
       <input type="search" id="site-search" name="q" placeholder="Marseille, France" aria-label="Recherche hotel" />
+      <button>Rechercher</button>
 
 
       <div class="filter">Filtres
-        <div class="button-filter"><div class="icon-case"><i class="fas fa-money-bill-wave"></div></i>Economique</div>
+        <div class="button-filter"><i class="fas fa-money-bill-wave"></i>Economique</div>
         <div class="button-filter"><i class="fas fa-child"></i>Familial</div>
         <div class="button-filter"><i class="fas fa-heart"></i>Romantique</div>
         <div class="button-filter"><i class="fas fa-dog"></i>Animaux autorisés</div>
@@ -44,19 +45,23 @@
       <section id="hotel">
         <h2>Hébergement à Marseille</h2>
         <div class="hotel-card">
-          <div class="single-hotel">
-            <img src="images\hebergements\4_small\4small-cannebiere.jpg">
+          <div class="contour-card">
+          <div class="single-hotel cannebiere">
+            <div class="card-content">
             <h4>Auberge La Cannebière</h4>
             <p>Nuit à partir de 25€</p>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i class="fas fa-star disable"></i>
+            </div>
           </div>
-
-          <div class="single-hotel">
-            <img src="images\hebergements\4_small\4small-port.jpg">
+        </div>
+  
+        <div class="contour-card">
+          <div class="single-hotel port">
+            <div class="card-content">
             <h4>Hôtel du port</h4>
             <p>Nuit à partir de 52€</p>
             <i class="fas fa-star"></i>
@@ -65,39 +70,56 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <div class="single-hotel">
-            <img src="images\hebergements\4_small\4small-mouette.jpg">
+        </div>
+      </div>
+
+
+          <div class="contour-card">
+          <div class="single-hotel mouette">
+            <div class="card-content">
             <h4>Hôtel Les mouettes</h4>
             <p>Nuit à partir de 76€</p>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i class="fas fa-star disable"></i>
           </div>
-          <div class="single-hotel">
-            <img src="images\hebergements\4_small\4small-mer.jpg">
-            <h4>Hôtel de la mer</h4>
-            <p>Nuit à partir de 46€</p>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="single-hotel">
-            <img src="images\hebergements\4_small\4small-panier.jpg">
-            <h4> Auberge Le Panier</h4>
-            <p>Nuit à partir de 23€</p>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="single-hotel">
-            <img src="images\hebergements\4_small\4small-amina.jpg">
-            <h4>Hôtel chez Amina</h4>
+        </div>
+      </div>
+
+        <div class="contour-card">
+          <div class="single-hotel mer">
+              <div class="card-content">
+                  <h4>Hôtel de la mer</h4>
+                  <p>Nuit à partir de 46€</p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star disable"></i>
+                  <i class="fas fa-star disable"></i>
+              </div>
+            </div>
+      </div>
+
+          <div class="contour-card">
+            <div class="single-hotel panier">
+              <div class="card-content">
+                <h4> Auberge Le Panier</h4>
+                 <p>Nuit à partir de 23€</p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+            </div>
+        </div>
+
+          <div class="contour-card">
+          <div class="single-hotel amina">
+            <div class="card-content">
+           <h4>Hôtel chez Amina</h4>
             <p>Nuit à partir de 96€</p>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -106,12 +128,14 @@
             <i class="fas fa-star"></i>
           </div>
         </div>
-        <a href="#">Afficher plus ...</a>
+      </div>
+        <a href="#">Afficher plus</a>
       </section>
       <aside id="popular">
         <h2>Les plus populaires</h2>
-        <div class="single-popular">
-          <img src="images\hebergements\4_small\4small-soleilmatin.jpg">
+        <div class="contour-popularcard">
+        <div class="single-popular soleil">
+          <div class="popularcard-content">
           <h4>Hôtel Le soleil du matin</h4>
           <p>Nuit à partir de 128€</p>
           <i class="fas fa-star"></i>
@@ -120,56 +144,63 @@
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
         </div>
-        <div class="single-popular">
-          <img src="images\hebergements\4_small\4small-coeurdeleau.jpg">
+      </div>
+    </div>
+        <div class="contour-popularcard">
+        <div class="single-popular coeurdeleau">
+          <div class="popularcard-content">
           <h4>Au coeur de l'eau Chambre d'hôtes</h4>
           <p>Nuit à partir de 71€</p>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
+          <i class="fas fa-star disable"></i>
         </div>
-        <div class="single-popular">
-          <img src="images\hebergements\4_small\4small-toutbleublanc.jpg">
+      </div>
+    </div>
+        <div class="contour-popularcard">
+        <div class="single-popular toutbleublanc">
+          <div class="popularcard-content">
           <h4>Hôtel Tout bleu et Blanc</h4>
           <p>Nuit à partir de 68€</p>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
+          <i class="fas fa-star disable"></i>
         </div>
+      </div>
+    </div>
       </aside>
       <article id="article-news">
         <h2>Activités à Marseille</h2>
         <div class="news-city">
           <div class="news-group">
-            <div class="card-news big">
-              <img src="images\activites\3_medium\3medium-port.jpg">
-              <h4>Hôtel Tout bleu et Blanc</h4>
+            <div class="card-news newsport big">
+              <h4>Vieux Port</h4>
             </div>
-            <div class="card-news little">
-              <img src="images\activites\4_small\4small-fort.jpg">
-              <h4>Hôtel Tout bleu et Blanc</h4>
+            <div class="card-news newsfort little">
+
+              <h4>Fort de Pomègues</h4>
             </div>
-            <div class="card-news little">
-              <img src="images\activites\4_small\4small-frioul.jpg">
-              <h4>Hôtel Tout bleu et Blanc</h4>
+            <div class="card-news newsfrioul little">
+   
+              <h4>îles du Frioul</h4>
             </div>
           </div>
           <div class="news-group">
-            <div class="card-news big">
-              <img src="images\activites\3_medium\3medium-calanque.jpg">
-              <h4>Hôtel Tout bleu et Blanc</h4>
+            <div class="card-news newscalanque big">
+        
+              <h4>Parc Nationnal des Calanques</h4>
             </div>
-            <div class="card-news little">
-              <img src="images\activites\4_small\4small-notredame.jpg">
-              <h4>Hôtel Tout bleu et Blanc</h4>
+            <div class="card-news newsnotredame little">
+       
+              <h4>Notre-Dame-de-la-Garde</h4>
             </div>
-            <div class="card-news little">
-              <img src="images\activites\4_small\4small-longchamp.jpg">
-              <h4>Hôtel Tout bleu et Blanc</h4>
+            <div class="card-news newslongchamp little">
+    
+              <h4>Parc Longchamp</h4>
             </div>
 
           </div>
