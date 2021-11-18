@@ -2,6 +2,8 @@ header {
     padding: 35px;
     display: flex;
     justify-content: space-between;
+    width: 75%;
+    margin: auto;
     
 }
 #logo-header {

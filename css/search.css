@@ -1,3 +1,6 @@
+#search {
+  padding-left: 35px;
+}
 .filter {
   display: flex;
   justify-content: space-around;
@@ -68,7 +71,7 @@ input {
   border: none;
   height: 40px;
   background-color: #0065FC;
-  border-radius: 0 40px 40px 0;
+  border-radius: 0 10px 10px 0;
   color: white;
   font-weight: bold;
   margin-left: 0;

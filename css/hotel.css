@@ -2,7 +2,7 @@
     
     background-color: #EFEFEF;
     border-radius: 15px;
-    width: 800px;
+    width: 70%;
 
 }
 
@@ -38,8 +38,8 @@
 }
 
 .single-hotel {
-    width: 210px;
-    height: 170px;
+    width: 200px;
+    height: 150px;
     border-radius: 20px;
     display: flex;
     flex-direction:row;
@@ -50,7 +50,7 @@
 .card-content {
     
     background-color: white;
-    width: 210px;
+    width: 100%;
     padding-left : 15px;
     padding-right: 15px;
     border-radius: 0 0 20px 15px;   
@@ -104,6 +104,4 @@
     color: #c9c9c9;
 }
 
-.more {
-    display: block;
-}
+

@@ -2,11 +2,15 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
+margin: auto;
+
+
+
 }
 
 main {
-  margin-left: 30px;
-  margin-right: 30px;
+  width: 90%;
+  margin: auto;
 }
 
 #in-case {
