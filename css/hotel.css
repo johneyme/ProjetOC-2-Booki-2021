@@ -24,6 +24,7 @@
     display: flex;
    flex-wrap: wrap;
     align-content: space-between;
+    
 }
 
 
@@ -52,9 +53,7 @@
     width: 210px;
     padding-left : 15px;
     padding-right: 15px;
-    border-radius: 0 0 20px 15px;
-
-    
+    border-radius: 0 0 20px 15px;   
 }
 .card-content p {
     
@@ -105,3 +104,6 @@
     color: #c9c9c9;
 }
 
+.more {
+    display: block;
+}

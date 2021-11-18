@@ -42,5 +42,59 @@ input {
     
     
 }
+.fa-map-marker-alt {
+
+  padding: 11px;
+  background-color: #EFEFEF;
+  border-radius: 10px 0 0 10px;
+  height: 18px;
+  width: 20px;
+  padding-left: 20px;
+  
+ 
+}
+#site-search {
+  margin-top: 10px;
+  width: 220px;
+  height: 40px;
+  border:rgba(196, 196, 196, 0.623) 1px solid;
+ 
+  margin-right:0;
+  margin-left: 0;
+}
+
+#search button {
+  margin-top: 10px;
+  border: none;
+  height: 40px;
+  background-color: #0065FC;
+  border-radius: 0 40px 40px 0;
+  color: white;
+  font-weight: bold;
+  margin-left: 0;
+  
+}
+
+#search button:hover {
+  background-color: #7cb3ff;
+  cursor: grab;
+}
+
+.logo-info {
+  width: 25px;
+  height: 25px;
+  border: #EFEFEF 1px solid;
+  color: #0065fc;
+  border-radius: 50px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.logementdispo {
+  display: flex;
+  
+}
 
 

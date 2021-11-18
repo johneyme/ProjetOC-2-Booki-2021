@@ -29,9 +29,8 @@
     <section id="search">
       <h1>Trouvez votre hébergement pour des vancances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
-      <label for="site-search"><i class="fas fa-map-marker-alt"></i></label>
-      <input type="search" id="site-search" name="q" placeholder="Marseille, France" aria-label="Recherche hotel" />
-      <button>Rechercher</button>
+      <label for="site-search"></label>
+      <i class="fas fa-map-marker-alt"></i><input type="search" id="site-search" name="q" placeholder="Marseille, France" aria-label="Recherche hotel" /></i><button>Rechercher</button>
 
 
       <div class="filter">Filtres
@@ -39,8 +38,9 @@
         <div class="button-filter"><i class="fas fa-child"></i>Familial</div>
         <div class="button-filter"><i class="fas fa-heart"></i>Romantique</div>
         <div class="button-filter"><i class="fas fa-dog"></i>Animaux autorisés</div>
-    </section>
-    <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+    
+      </section>
+      <p class="logementdispo"><span class="logo-info"><i class="fas fa-info"></i></span>Plus de 500 logements sont disponibles dans cette ville</p>
     <div id="in-case">
       <section id="hotel">
         <h2>Hébergement à Marseille</h2>
@@ -129,7 +129,9 @@
           </div>
         </div>
       </div>
+      <div class="more">
         <a href="#">Afficher plus</a>
+      </div>
       </section>
       <aside id="popular">
         <h2>Les plus populaires</h2>
@@ -180,6 +182,7 @@
             <div class="card-news newsport big">
               <h4>Vieux Port</h4>
             </div>
+            <div class="littlegroupnews">
             <div class="card-news newsfort little">
 
               <h4>Fort de Pomègues</h4>
@@ -189,20 +192,24 @@
               <h4>îles du Frioul</h4>
             </div>
           </div>
+          </div>
+
           <div class="news-group">
             <div class="card-news newscalanque big">
         
               <h4>Parc Nationnal des Calanques</h4>
             </div>
-            <div class="card-news newsnotredame little">
+            <div class="littlegroupnews">
+              <div class="card-news newsnotredame little">
        
               <h4>Notre-Dame-de-la-Garde</h4>
             </div>
+
             <div class="card-news newslongchamp little">
     
               <h4>Parc Longchamp</h4>
             </div>
-
+          </div>
           </div>
         </div>
 
